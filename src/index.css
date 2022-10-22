@@ -338,12 +338,12 @@ a {
   margin-bottom: var(--margin-lg);
 }
 
-/* .your-learning-page__titles {
-  max-width: 1200px;
-} */
+.your-learning-page__titles {
+  max-width: 70%;
+}
 
 .your-learning-page__search-bar {
-  width: calc(100%-1200px);
+  width: 30%;
   display: flex;
   align-items: center;
 }
@@ -507,12 +507,12 @@ a {
   margin-bottom: var(--margin-lg);
 }
 
-/* .categories-page__titles {
-  max-width: 1200px;
-} */
+.categories-page__titles {
+  width: 70%;
+}
 
 .categories-page__search-bar {
-  width: calc(100%-1200px);
+  width: 30%;
   display: flex;
   align-items: center;
 }
