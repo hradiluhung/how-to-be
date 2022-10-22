@@ -46,12 +46,12 @@ const HomePage = () => {
           <div className="home-page__recently-list">
             <LearningProgressBar
               image={placeHolderImage}
-              title="Front-End Development"
+              title="Front-End"
               percentage={60}
             />
             <LearningProgressBar
               image={placeHolderImage}
-              title="Back-End Development"
+              title="Back-End"
               percentage={30}
             />
           </div>
@@ -64,18 +64,9 @@ const HomePage = () => {
         <div className="home-page__categories">
           <h1 className="home-page__categories-title">Kategori</h1>
           <div className="home-page__categories-list">
-            <CategoryListItem
-              image={placeHolderImage}
-              category="React Development"
-            />
-            <CategoryListItem
-              image={placeHolderImage}
-              category="Android Development"
-            />
-            <CategoryListItem
-              image={placeHolderImage}
-              category="Kotlin Development"
-            />
+            <CategoryListItem image={placeHolderImage} category="React" />
+            <CategoryListItem image={placeHolderImage} category="Android" />
+            <CategoryListItem image={placeHolderImage} category="Kotlin" />
             <CategoryListItem image={placeHolderImage} category="Mewarnai" />
             <CategoryListItem image={placeHolderImage} category="Fotografi" />
             <CategoryListItem image={placeHolderImage} category="Futsal" />
@@ -100,19 +91,20 @@ const HomePage = () => {
           </h1>
           <div className="home-page__recommendation-list">
             <ContentListItem
-              title="Dasar Belajar Bermain Gitar Bagi Pemula"
+              title="Perbedaan Microservices dan Monolith"
               image={placeHolderImage}
             />
             <ContentListItem
-              title="Penggunaan React-Router untuk URL Dinamis"
+              title="Seni berbicara dalam kehidupan sehari-hari
+              "
               image={placeHolderImage}
             />
             <ContentListItem
-              title="Membuat Aplikasi ReactJS dengan React-Bootstrap"
+              title="Sejarah Internet"
               image={placeHolderImage}
             />
             <ContentListItem
-              title="Laravel 8: Membuat CRUD API"
+              title="Apa itu kebahagiaan?"
               image={placeHolderImage}
             />
           </div>

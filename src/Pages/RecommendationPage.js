@@ -13,37 +13,28 @@ const RecommendationPage = () => {
       </div>
       <div className="news-page__list">
         <ContentListItem
-          title="Dasar Belajar Bermain Gitar Bagi Pemula"
+          title="Perbedaan Microservices dan Monolith"
+          image={placeHolderImage}
+        />
+        <ContentListItem
+          title="Seni berbicara dalam kehidupan sehari-hari"
+          image={placeHolderImage}
+        />
+        <ContentListItem title="Sejarah Internet" image={placeHolderImage} />
+        <ContentListItem
+          title="How does Bill Gates's brain work?"
+          image={placeHolderImage}
+        />
+        <ContentListItem
+          title="'Bagaimana' merupakan solusi"
           image={placeHolderImage}
         />
         <ContentListItem
           title="Penggunaan React-Router untuk URL Dinamis"
           image={placeHolderImage}
         />
-        <ContentListItem
-          title="Membuat Aplikasi ReactJS dengan React-Bootstrap"
-          image={placeHolderImage}
-        />
-        <ContentListItem
-          title="Laravel 8: Membuat CRUD API"
-          image={placeHolderImage}
-        />
-        <ContentListItem
-          title="Dasar Belajar Bermain Gitar Bagi Pemula"
-          image={placeHolderImage}
-        />
-        <ContentListItem
-          title="Penggunaan React-Router untuk URL Dinamis"
-          image={placeHolderImage}
-        />
-        <ContentListItem
-          title="Membuat Aplikasi ReactJS dengan React-Bootstrap"
-          image={placeHolderImage}
-        />
-        <ContentListItem
-          title="Laravel 8: Membuat CRUD API"
-          image={placeHolderImage}
-        />
+        <ContentListItem title="I Love My Self" image={placeHolderImage} />
+        <ContentListItem title="Apa itu kebahagiaan" image={placeHolderImage} />
       </div>
     </div>
   );
