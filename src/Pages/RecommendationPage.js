@@ -8,7 +8,7 @@ const RecommendationPage = () => {
       <div className="news-page__header">
         <h1 className="news-page__title">Rekomendasi Konten</h1>
         <p className="news-page__subtitle">
-          Berita terbaru seputar skill dan teknologi
+          Informasi yang mungkin berguna untuk kamu
         </p>
       </div>
       <div className="news-page__list">
