@@ -6,7 +6,7 @@ const RecommendationPage = () => {
   return (
     <div className="news-page">
       <div className="news-page__header">
-        <h1 className="news-page__title">Rekomendasi Konten Pembelajaran</h1>
+        <h1 className="news-page__title">Rekomendasi Konten</h1>
         <p className="news-page__subtitle">
           Berita terbaru seputar skill dan teknologi
         </p>
