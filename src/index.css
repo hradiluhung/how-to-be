@@ -1188,6 +1188,21 @@ a {
   font-size: small;
 }
 
+sub-material-collapseable__test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sub-material-collapseable__test-link {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-size: small;
+}
+
 /* CategoryCard */
 .category-card {
   width: calc(100% / 3 - 14px);

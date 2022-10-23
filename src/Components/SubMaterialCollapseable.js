@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FiArrowDownCircle, FiArrowUpCircle, FiCheck } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const SubMaterialCollapseable = ({ name, desc, link, isFollowed }) => {
   const [isCollapse, setIsCollapse] = useState(true);
@@ -105,6 +106,29 @@ const SubMaterialCollapseable = ({ name, desc, link, isFollowed }) => {
                   Ambil kursus
                 </a>
               </div>
+            </div>
+          </div>
+          <div className="sub-material-collapseable__section">
+            <h3 className="sub-material-collapseable__subtitle">Ujian</h3>
+            <p className="sub-material-collapseable__text">
+              Pastikan kamu sudah menguasai materi ini dengan mengikuti ujian.{" "}
+              <b>Nilai minimal kelulusan adalah 80%</b>
+            </p>
+            <div className="sub-material-collapseable__test">
+              <Link to="/test" className="sub-material-collapseable__test-link">
+                Ikuti ujian
+              </Link>
+            </div>
+          </div>
+          <div className="sub-material-collapseable__section">
+            <h3 className="sub-material-collapseable__subtitle">Resume</h3>
+            <p className="sub-material-collapseable__text">
+              Simpan materi ini ke dalam resume kamu
+            </p>
+            <div className="sub-material-collapseable__test">
+              <Link to="/test" className="sub-material-collapseable__test-link">
+                Simpan ke resume
+              </Link>
             </div>
           </div>
         </div>
