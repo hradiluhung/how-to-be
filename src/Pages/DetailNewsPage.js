@@ -5,7 +5,7 @@ const DetailNewsPage = () => {
     <div className="detail-news-page">
       <div className="detail-news-page__header">
         <h1 className="detail-news-page__title">
-          Dasar Belajar Bermain Gitar Bagi Pemula
+          Info Beasiswa Bulan Desember 2022
         </h1>
         <p className="detail-news-page__date">10 September 2022</p>
       </div>

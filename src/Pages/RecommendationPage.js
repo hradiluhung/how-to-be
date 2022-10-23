@@ -15,26 +15,43 @@ const RecommendationPage = () => {
         <ContentListItem
           title="Perbedaan Microservices dan Monolith"
           image={placeHolderImage}
+          content="recommendation"
         />
         <ContentListItem
           title="Seni berbicara dalam kehidupan sehari-hari"
           image={placeHolderImage}
+          content="recommendation"
         />
-        <ContentListItem title="Sejarah Internet" image={placeHolderImage} />
+        <ContentListItem
+          title="Sejarah Internet"
+          image={placeHolderImage}
+          content="recommendation"
+        />
         <ContentListItem
           title="How does Bill Gates's brain work?"
           image={placeHolderImage}
+          content="recommendation"
         />
         <ContentListItem
           title="'Bagaimana' merupakan solusi"
           image={placeHolderImage}
+          content="recommendation"
         />
         <ContentListItem
           title="Penggunaan React-Router untuk URL Dinamis"
           image={placeHolderImage}
+          content="recommendation"
         />
-        <ContentListItem title="I Love My Self" image={placeHolderImage} />
-        <ContentListItem title="Apa itu kebahagiaan" image={placeHolderImage} />
+        <ContentListItem
+          title="I Love My Self"
+          image={placeHolderImage}
+          content="recommendation"
+        />
+        <ContentListItem
+          title="Apa itu kebahagiaan"
+          image={placeHolderImage}
+          content="recommendation"
+        />
       </div>
     </div>
   );
